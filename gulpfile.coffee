@@ -2,6 +2,7 @@ gulp = require 'gulp'
 concat = require 'gulp-concat'
 spawn = require 'gulp-spawn'
 watch = require 'gulp-watch'
+replace = require 'gulp-replace'
 
 gulp.task 'markdown', ->
   gulp.src './src/markdown/*.md'
@@ -13,12 +14,17 @@ gulp.task 'images', ->
   .pipe gulp.dest './int/images'
   
 gulp.task 'publish', ->
-  gulp.src './int/markdown/book.md'
+  gulp.src ['./title.txt', './int/markdown/book.md']
+  .pipe concat 'combined.md'
+  .pipe replace /\.\.\/images\//g, 'src/images/'
   .pipe spawn
     cmd: "pandoc"
     args: [
       "-o"
-      "./build/epub/book.epub"
+      #"./build/epub/symbol-font-in-web.epub"
+      "/Users/cognitom/Library/Containers/ee.64.Kitabu/Data/Documents/ePubLibrary/symbol-font-in-web.epub"
+      "--epub-metadata=metadata.xml"
+      "--epub-cover-image=cover.jpg"
     ]
 
 gulp.task 'default', ->
