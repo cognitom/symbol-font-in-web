@@ -4,6 +4,7 @@
 
 
 
+
 ## iタグの是非とベストプラクティス
 
 [FontAwesome](http://fontawesome.io/)や[Foundation](http://foundation.zurb.com/)では、HTMLのi要素をアイコン表示に流用しています。本来は、斜体を表示するためのHTMLタグなのですが、
