@@ -1,4 +1,4 @@
-# Chapter 7: フォントの作り方 - Illustrator 編
+# Chapter 8: フォントの作り方 - Sketch 編
 
 
 ## グリッドの設定
@@ -11,6 +11,4 @@
 
 
 ## フォント変換
-
-### IcoMoon
 

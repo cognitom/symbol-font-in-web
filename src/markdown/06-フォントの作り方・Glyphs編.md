@@ -4,7 +4,7 @@
 ## Glyphs miniとは
 
 
-## 作図
+## グリフの作成
 
 
 ## FontPrepでWebフォントに変換
