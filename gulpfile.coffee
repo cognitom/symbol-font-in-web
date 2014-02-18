@@ -21,8 +21,7 @@ gulp.task 'publish', ->
     cmd: "pandoc"
     args: [
       "-o"
-      #"./build/epub/symbol-font-in-web.epub"
-      "/Users/cognitom/Library/Containers/ee.64.Kitabu/Data/Documents/ePubLibrary/symbol-font-in-web.epub"
+      "./build/epub/symbol-font-in-web.epub"
       "--epub-metadata=metadata.xml"
       "--epub-cover-image=cover.jpg"
     ]
