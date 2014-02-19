@@ -11,6 +11,25 @@
 
 ## リガチャーの場合
 
+他に先駆けてリガチャー対応のシンボルフォントを提供している、Symbolsetのブログ記事に倣うと、シンボルフォントを表示するには、次の4つの方法があります。
+
+- Unicode `<i class="myicon">&#x2665;</i>`
+- CSS classes `<i class="myicon mi-star"></i>`
+- Keywords `<i class="myicon">star</i>`
+- Keywords w/JS `<i class="myicon">star</i>`
+
+ここで、UnicodeというのはHTMLに実体参照の形でコードを指定することですが、あまり使いやすいとは言えません。前節で説明したのが、まさにCSS classesのやりかたです。注目して欲しいのが、次のKeywordsの方法になります。class指定はされているものの"star"の文字が属性ではなくテキストとして書かれているのに気づいたでしょうか? HTMLでstarと4文字であっても、心配はありません。フォントにリガチャー(合字)の設定があれば、この部分は一文字のアイコンとしてブラウザ上に表示されるのです。
+
+TODO: ここにスクリーンショット
+
+- Browser support [http://blog.symbolset.com/browser-support](http://blog.symbolset.com/browser-support)
+
+
+### 既存のフォントを使う
+
+Chapter 1で紹介した、[Ligature Symbols](http://kudakurage.com/ligature_symbols/)を例に、HTMLへの組み込み方法を見ていきましょう。
+
+TODO: つづき
 
 
 ### リガチャーを旧いブラウザに対応させる
