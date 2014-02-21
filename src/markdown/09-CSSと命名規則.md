@@ -129,6 +129,35 @@ HTMLに組み込む際は、ヘッダで両方のCSSを読み込んだ上で、�
 - 独自フォント: `<i class="mi mi-cup"></i>`
 
 
+#### 参考: Unicode Range
+
+CSS3では、フォントの一部を別フォントで置換する仕組みが用意されようとしています。
+
+下記、CSS Fonts Module Level 3 (ワーキングドラフト) の例を引用します。
+
+	@font-face {
+	  font-family: JapaneseWithGentium;
+	  src: local(MSMincho);
+	  /* no range specified, defaults to entire range */
+	}
+	
+	@font-face {
+	  font-family: JapaneseWithGentium;
+	  src: url(../fonts/Gentium.woff);
+	  unicode-range: U+0-2FF;
+	}
+
+この例では、日本語フォントのラテン文字部分だけをGentiumに置き換えています。同様のことは、シンボルフォントでも可能です。例えば、FontAwesomeの一部を独自フォントに置き換える場合、前節の例と異なり、HTML内で次のように記述できるでしょう。これにより、HTMLの記述者は、フォントが既存か独自かを意識しなくても良くなります。また、HTMLの変更なしに、CSSの変更だけでFontAwesomeのアイコンの上書きが可能になるため、スタイルの独立という観点で、より望ましい形です。
+
+- FontAwesome: `<i class="fa fa-star"></i>`
+- 独自フォント: `<i class="fa fa-cup"></i>`
+
+Unicode Rangeについての詳細は、Mozillaの記事と、ワーキングドラフトを参照してください。
+
+- Mozillaの記事 [https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-range](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-range)
+- CSS Fonts Module Level 3 [http://dev.w3.org/csswg/css-fonts/#descdef-unicode-range](http://dev.w3.org/csswg/css-fonts/#descdef-unicode-range)
+
+
 ### 3つ以上のシンボルフォントの混在
 
 例えば、FontAwesomeと、GLYPHICONSのそれぞれから、必要なグリフをピックアップして、さらに独自のフォントを合わせて使うという欲求に駆られるかもしれませんが、やめましょう。
