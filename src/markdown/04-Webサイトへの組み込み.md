@@ -18,7 +18,7 @@
 - Keywords `<i class="myicon">star</i>`
 - Keywords w/JS `<i class="myicon">star</i>`
 
-ここで、UnicodeというのはHTMLに実体参照の形でコードを指定することですが、あまり使いやすいとは言えません。前節で説明したのが、まさにCSS classesのやりかたです。注目して欲しいのが、次のKeywordsの方法になります。class指定はされているものの"star"の文字が属性ではなくテキストとして書かれているのに気づいたでしょうか? HTMLでstarと4文字であっても、心配はありません。フォントにリガチャー(合字)の設定があれば、この部分は一文字のアイコンとしてブラウザ上に表示されるのです。
+ここで、UnicodeというのはHTMLに実体参照の形でコードを指定することですが、あまり使いやすいとは言えません。前節で説明したのが、まさにCSS classesのやりかたです。注目して欲しいのが、次のKeywordsの方法になります。class指定はされているものの"star"の文字が属性ではなくテキストとして書かれているのに気づいたでしょうか? HTMLでstarと4文字であっても、心配はありません。フォントにリガチャー(合字)の設定があれば、この部分は一文字のアイコンとしてブラウザ上に表示されるのです。
 
 TODO: ここにスクリーンショット
 
@@ -27,7 +27,7 @@ TODO: ここにスクリーンショット
 
 ### 既存のフォントを使う
 
-Chapter 1で紹介した、[Ligature Symbols](http://kudakurage.com/ligature_symbols/)を例に、HTMLへの組み込み方法を見ていきましょう。
+Chapter 1で紹介した、[Ligature Symbols](http://kudakurage.com/ligature_symbols/)を例に、HTMLへの組み込み方法を見ていきましょう。
 
 TODO: つづき
 
