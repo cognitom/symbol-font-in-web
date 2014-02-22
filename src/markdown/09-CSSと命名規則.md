@@ -26,7 +26,7 @@
 
 FontAwesomeの方が可読性が高いのは確かですが、標準への準拠という意味ではBootstrap方式が無難かもしれません。FontAwesomeを援護するとするならば、HTML5では「技術用語や外国語単語など、文中の他の語と別段の強調なしに区別するもの」とされているので、アイコンもそれにあたると主張することはできそうです。
 
-	The i element represents a span of text offset from its surrounding content without conveying any extra emphasis or importance, and for which the conventional typographic presentation is italic text; for example, a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, or a ship name.
+> The i element represents a span of text offset from its surrounding content without conveying any extra emphasis or importance, and for which the conventional typographic presentation is italic text; for example, a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, or a ship name.
 
 - HTML5仕様(ドラフト) [http://dev.w3.org/html5/markup/i.html](http://dev.w3.org/html5/markup/i.html)
 
@@ -178,7 +178,7 @@ Unicode Rangeについての詳細は、Mozillaの記事と、ワーキングド
 
 CSS2.1の仕様を確認すると、"Syntax and basic data types"に下記のようにあります。
 
-	In CSS, identifiers (including element names, classes, and IDs in selectors) can contain only the characters [a-zA-Z0-9] and ISO 10646 characters U+00A0 and higher, plus the hyphen (-) and the underscore (_); they cannot start with a digit, two hyphens, or a hyphen followed by a digit.
+> In CSS, identifiers (including element names, classes, and IDs in selectors) can contain only the characters [a-zA-Z0-9] and ISO 10646 characters U+00A0 and higher, plus the hyphen (-) and the underscore (_); they cannot start with a digit, two hyphens, or a hyphen followed by a digit.
 
 - Syntax and basic data types [http://www.w3.org/TR/CSS2/syndata.html](http://www.w3.org/TR/CSS2/syndata.html)
 
