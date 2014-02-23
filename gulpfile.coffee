@@ -14,7 +14,7 @@ gulp.task 'images', ->
   .pipe gulp.dest './int/images'
   
 gulp.task 'publish', ->
-  gulp.src ['./title.txt', './int/markdown/book.md']
+  gulp.src ['./title.txt', './src/markdown/*.md']
   .pipe concat 'combined.md'
   .pipe replace /\.\.\/images\//g, 'src/images/'
   .pipe spawn
