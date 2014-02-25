@@ -9,6 +9,7 @@ gulp.task 'markdown', ->
   .pipe concat 'book.md'
   .pipe gulp.dest './int/markdown'
 
+# TODO: Resize images
 gulp.task 'images', ->
   gulp.src './src/images/**'
   .pipe gulp.dest './int/images'
@@ -24,6 +25,7 @@ gulp.task 'publish', ->
       "./build/epub/symbol-font-in-web.epub"
       "--epub-metadata=metadata.xml"
       "--epub-cover-image=cover.jpg"
+      "--epub-stylesheet=./src/css/epub.css"
     ]
 
 gulp.task 'default', ->
