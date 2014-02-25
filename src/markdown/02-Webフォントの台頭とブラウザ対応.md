@@ -42,20 +42,38 @@ http://typesquare.com/
 
 - 千都フォント ライセンスについてのFAQ: http://www.screen.co.jp/ga_product/sento/support/licensefaq.html
 
-どうしてもヒラギノを
+どうしてもヒラギノを使いたければ、現状では、FONTPLUSで有料のWebフォントを使う必要があるでしょう。
 
 
 ### EOT (Embedded OpenType)
+
 EOTはMicrosoftがInternet Explorer 4 で導入したフォント形式です。当初から、
 
 - フォントのライセンス問題
 - フォントサブセット
 
-に対応し、
+に対応していましたが、ブラウザが限定されていたこともあり、普及は限定的でした。
 
 - Embedded OpenType: http://www.microsoft.com/typography/web/embedding/default.aspx
 
-### SVG
+
+### SVG フォント
+
+SVG(Scalable Vector Graphics)は、2000年前後に登場した汎用のベクター画像形式です。IllustratorやFlashと異なり、XMLを基本としたオープンな形式だったため、Webでのベクター表示の標準として期待されましたが、普及が進んだのは比較的最近です。Internet Explorerに至っては、バージョン8でようやく対応した状態です(ただし、画像表示などの基本部分のみ)。
+
+実は、SVGは画像形式でありながら、フォント形式も仕様に含まれています。OSのフォント環境に依存すると、ドキュメントが意図した通りに表示できない可能性があります。SVGではその点を重視して、バージョン1.0から各文字をSVGで表現してフォントにすることが提案されていました。しかし、Webブラウザのフォントとしてはなかなか採用されず、最近やっとChromeとSafariで対応した段階です。
+
+
+| ブラウザ           | SVG基本 | SVGフォント |
+| ----------------- | :-: | :-: |
+| Safari            | ver 3.1〜 | ver 5.1〜 |
+| Chrome            | ver 4〜 | ver 31〜 |
+| Firefox           | ver 2〜 | × |
+| Internet Explorer | ver 9〜 | × |
+
+
+- 最初にフォントについて書かれたワーキングドラフト [http://www.w3.org/TR/1999/WD-SVG-19991203/](http://www.w3.org/TR/1999/WD-SVG-19991203/)
+- 現在の最新版 SVG 1.1 (Second Edition) [http://www.w3.org/TR/SVG11/fonts.html](http://www.w3.org/TR/SVG11/fonts.html)
 
 
 ### WOFF (Web Open Font Format)

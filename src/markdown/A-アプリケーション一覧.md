@@ -5,7 +5,7 @@
 ### Adobe Illustrator (Mac & Win)
 
 SVGファイルを直接編集できる事実上唯一のアプリケーション。
-単品購入は前バージョンCS6ののみ可能で¥75,000、Creative Cloudの場合は単体でも月あたり¥2,200と高額ですが、すでにユーザであれば、Illustratorが第一の選択肢となるでしょう。
+単品購入は前バージョンCS6ののみ可能で¥75,000、Creative Cloudの場合は単体でも月あたり¥2,200と高額ですが、すでにユーザであれば、Illustratorが第一の選択肢となるでしょう。「Chapter 7: フォントの作り方・Illustrator編」を参照。
 
 - [http://www.adobe.com/products/illustrator.html](http://www.adobe.com/products/illustrator.html)
 
@@ -21,13 +21,15 @@ TrueTypeフォントを指定すると、自動的にWOFF/EOT/SVGに変換し、
 
 本格的なフォント作成ツール。シンボルフォントを作るだけだと、少々オーバースペックですが、非常に使いやすいです。TrueType、OpenTypeのフォントを直接開くことが可能で、OpenTypeフォントの出力に対応します。Illustratorからコピー&ペーストで曲線データを貼付けることも可能ですが、単体でフォントデザインに十分な編集能力を持ちます。
 
-Glyphs miniはApp Storeで¥4,500程度と、一般的なフォントアプリケーションに比べて非常に安価なので、シンボルフォントのためだけに購入するとすれば、フォント制作のアプリケーションとしては唯一の選択肢になるでしょう。
+Glyphs miniはApp Storeで¥4,500程度と、一般的なフォントアプリケーションに比べて非常に安価なので、シンボルフォントのためだけに購入するとすれば、フォント制作のアプリケーションとしては唯一の選択肢になるでしょう。「Chapter 6: フォントの作り方・Glyphs編」を参照。
 
 - [http://www.glyphsapp.com/](http://www.glyphsapp.com/)
 - [http://www.glyphsapp.com/glyphs-mini](http://www.glyphsapp.com/glyphs-mini)
 
 
 ### Sketch (Mac)
+
+Webに特化したベクター画像の編集ツール。IllustratorやFireworksの代替アプリケーションとして注目が集まっています。SVGの出力が可能です。「Chapter 8: フォントの作り方・Sketch編」を参照。
 
 - [http://www.bohemiancoding.com/sketch/](http://www.bohemiancoding.com/sketch/)
 
