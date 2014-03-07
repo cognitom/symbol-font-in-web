@@ -14,6 +14,7 @@
 - IcoMoon [http://icomoon.io/](http://icomoon.io/)
 - GLYPHICONS [http://glyphicons.com/](http://glyphicons.com/)
 - Symbolset [https://symbolset.com/](https://symbolset.com/)
+- flaticon [http://www.flaticon.com/](http://www.flaticon.com/)
 
 
 ### Webフォント全般
