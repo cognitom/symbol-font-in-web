@@ -1,10 +1,10 @@
-「シンボルフォント in Web」の草稿
+「シンボルフォント in Web」草稿
 =====
 
 GitHubや、Kickstarter、AirBnBが当たり前のように、シンボルフォントを導入する昨今ですが、英語の文献も含めて、全体像をまとめた書籍やサイトがまだありません。なければ作ろう、ということで、今、原稿をまとめています。このREADMEを作っている時点で、5万字弱なので10万字くらいのボリューム感になりそうです。
 
 - 著者・[河村 奨](https://github.com/cognitom): [リブライズ](http://librize.com/ja)のWEBデザイン担当
-- 発行・たぶん、Kindleから
+- 発行・たぶん、Kindleから (未定)
 
 
 ## 章の構成 (仮)
@@ -29,6 +29,7 @@ GitHubや、Kickstarter、AirBnBが当たり前のように、シンボルフォ
 | ★★★☆ | [Chapter 10 - デザインのアイデア](src/markdown/10-デザインのアイデア.md) |
 | ★★☆☆ | [Chapter 11 - ワークフローと自動化](src/markdown/11-ワークフローと自動化.md) |
 | ★★★☆ | [Chapter 12 - フォントのライセンス](src/markdown/12-フォントのライセンス.md) |
+|  | **Appendix** |
 | ★★★☆ | [Appendix A - アプリケーション一覧](src/markdown/A-アプリケーション一覧.md) |
 | ★★☆☆ | [Appendix B - ツールコマンド一覧](src/markdown/B-ツールコマンド一覧.md) |
 | ★★★★ | [Appendix C - フォントライセンスの全文](src/markdown/C-フォントライセンスの全文.md) |
@@ -39,8 +40,9 @@ GitHubや、Kickstarter、AirBnBが当たり前のように、シンボルフォ
 
 ## ツッコミ歓迎
 
-ツッコミ、情報提供歓迎です!
-[新しいIssue](https://github.com/cognitom/symbol-font-in-web/issues/new)として書き込むか、[こちらのリスト](https://github.com/cognitom/symbol-font-in-web/issues)から該当する項目を見つけて、ディスカッションに参加していただければと思います :-)
+ツッコミ、情報提供歓迎です! 「こんなツールがあるよ」「こんなフォント提供元があるよ」ほか、シンボルフォント関連のノウハウお待ちしてます〜。
+
+[新しいIssue](https://github.com/cognitom/symbol-font-in-web/issues/new)として書き込むか、[こちらのリスト](https://github.com/cognitom/symbol-font-in-web/issues)から該当する項目を見つけて、ディスカッションに参加していただければ幸いです :-)
 
 あるいは、著者は[下北沢オープンソースCafe](http://www.osscafe.net)で店番していることが多いので、ぜひお喋りしにきてくださいませ。
 
