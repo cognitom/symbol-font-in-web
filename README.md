@@ -15,7 +15,7 @@ GitHubや、Kickstarter、AirBnBが当たり前のように、シンボルフォ
 | :-: | ---------------------------- |
 | ★★★★ | [はじめに](src/markdown/00-はじめに.md) |
 |  | **Part 1: 使う** |
-| ★★★☆ | [Chapter 1 - シンボルフォントとは](src/markdown/01-シンボルフォントとは.md) |
+| ★★★★ | [Chapter 1 - シンボルフォントとは](src/markdown/01-シンボルフォントとは.md) |
 | ★★☆☆ | [Chapter 2 - Webフォントの台頭とブラウザ対応](src/markdown/02-Webフォントの台頭とブラウザ対応.md) |
 | ★☆☆☆ | [Chapter 3 - 画像形式との比較](src/markdown/03-画像形式との比較.md) |
 | ★★☆☆ | [Chapter 4 - Webサイトへの組み込み](src/markdown/04-Webサイトへの組み込み.md) |
