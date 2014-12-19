@@ -15,6 +15,7 @@
 - GLYPHICONS [http://glyphicons.com/](http://glyphicons.com/)
 - Symbolset [https://symbolset.com/](https://symbolset.com/)
 - flaticon [http://www.flaticon.com/](http://www.flaticon.com/)
+- Genericons [http://genericons.com/](http://genericons.com/)
 
 
 ### Webフォント全般

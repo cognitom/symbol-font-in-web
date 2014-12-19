@@ -3,6 +3,7 @@ concat = require 'gulp-concat'
 spawn = require 'gulp-spawn'
 watch = require 'gulp-watch'
 replace = require 'gulp-replace'
+wrap = require 'gulp-wrap'
 
 gulp.task 'markdown', ->
   gulp.src './src/markdown/*.md'
@@ -13,7 +14,7 @@ gulp.task 'markdown', ->
 gulp.task 'images', ->
   gulp.src './src/images/**'
   .pipe gulp.dest './int/images'
-  
+
 gulp.task 'publish', ->
   gulp.src ['./title.txt', './src/markdown/*.md']
   .pipe concat 'combined.md'
@@ -27,6 +28,23 @@ gulp.task 'publish', ->
       "--epub-cover-image=cover.jpg"
       "--epub-stylesheet=./src/css/epub.css"
     ]
+###
+gulp.task 'publish', ->
+  gulp.src ['./title.txt', './src/markdown/*.md']
+  .pipe concat 'symbol-font-in-web.md'
+  .pipe replace /\.\.\/images\//g, 'src/images/'
+  .pipe spawn
+    cmd: "pandoc"
+    args: [
+      "-f", "markdown"
+      "-t", "epub"
+      "--epub-metadata=metadata.xml"
+      "--epub-cover-image=cover.jpg"
+      "--epub-stylesheet=./src/css/epub.css"
+    ]
+    filename: (base, ext) -> base + '.epub'
+  .pipe gulp.dest './build/epub'
+###
 
 gulp.task 'default', ->
   gulp.watch 'src/markdown/*.md', ['markdown']
